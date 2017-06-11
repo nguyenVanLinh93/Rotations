@@ -8,8 +8,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
-                  android:configChanges="orientation|screenSize|screenLayout">
+        <activity android:name=".MainActivity">
+                  <!--android:configChanges="orientation|screenSize|screenLayout|keyboardHidden
+                  |keyboard|locale|mcc|mnc|navigation|fontScale|uiMode|layoutDirection"> cái này chính là ngăn ko tự khỏi động lại khi quay màn hình hay thay đổi ngôn ngữ-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
